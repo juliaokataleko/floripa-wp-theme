@@ -1,0 +1,144 @@
+/*
+Theme Name: Floripa
+Author: Julião F. Kataleko
+Author URI: https://github.com/juliaokataleko
+Description: A wonderfull blog theme
+Version: 1.0
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@1,300&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #278f41;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+a:hover {
+  color: #222;
+}
+
+#banner {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(0, 0, 0, 0.2) url("./images/img6.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: overlay;
+  background-blend-mode: overlay;
+  color: #fff;
+}
+
+#banner h3 {
+  background: #222;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 24px;
+}
+
+.main {
+  background-color: #FEFEFE;
+  padding: 80px 0;
+  margin-top: 1em;
+}
+
+.card-image img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  background-color: #161e22;
+  padding: 80px 0;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #278f41;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer #social-media-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer #social-media-footer ul li {
+  padding: 20px;
+  font-size: 40px;
+}
+
+#post {
+  margin-top: 100px;
+}
+
+#post img {
+  width: 100%;
+}
+
+#post p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.card-meta {
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.pagination {
+    font-size: 20px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.page-numbers {
+    margin-right: 1em;
+}
